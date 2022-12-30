@@ -1,0 +1,82 @@
+GLOBAL {
+	VARIABLES {
+		boolean loggedIn = false;
+	}
+	
+	EVENTS {
+		UserValidLogin() = {*.UserValidLogin()}
+		UserLoggedOut() = {*.UserLoggedOut()}
+		UserViewingAlerts() = {*.UserViewingAlerts()}
+	}
+	
+	PROPERTY MarketAlertUmProperty {
+		STATES {
+			BAD {
+				tooManyLogIns
+				tooManyLogOuts
+				badViewingAlerts
+			}
+			NORMAL {
+				viewingAlerts
+				loggedIn
+			} 
+			STARTING {
+				loggedOut
+			}
+		}
+		TRANSITIONS {
+			tooManyLogIns -> tooManyLogIns[UserValidLogin\\System.out.println("Bad State: too many log ins");]
+			tooManyLogIns -> loggedOut[UserLoggedOut\\loggedIn=false;]
+			tooManyLogIns -> viewingAlerts[UserViewingAlerts\\;]
+			tooManyLogOuts -> tooManyLogOuts[UserLoggedOut\\System.out.println("Bad State: too many log outs");]
+			tooManyLogOuts -> badViewingAlerts[UserViewingAlerts\\System.out.println("Bad State: user not logged in to view alerts");]
+			tooManyLogOuts -> loggedIn[UserValidLogin\\loggedIn=true;]
+			badViewingAlerts -> badViewingAlerts[UserViewingAlerts\\System.out.println("Bad State: viewing alerts this way is not possible");]
+			badViewingAlerts -> loggedIn[UserValidLogin\\loggedIn=true;]
+			badViewingAlerts -> tooManyLogOuts[UserLoggedOut\\System.out.println("Bad State: logging out this way is not possible");]
+			viewingAlerts -> loggedOut[UserLoggedOut\\loggedIn=false;]
+			viewingAlerts -> viewingAlerts[UserViewingAlerts\\;]
+			viewingAlerts -> tooManyLogIns[UserValidLogin\\System.out.println("Bad State: too many log ins");]
+			loggedIn -> loggedOut[UserLoggedOut\\loggedIn=false;]
+			loggedIn -> viewingAlerts[UserViewingAlerts\\;]
+			loggedIn -> tooManyLogIns[UserValidLogin\\System.out.println("Bad State: too many log ins");]
+			loggedOut -> loggedIn[UserValidLogin\\loggedIn=true;]
+			loggedOut -> badViewingAlerts[UserViewingAlerts\\System.out.println("Bad State: user not logged in to view alerts");]
+			loggedOut -> tooManyLogOuts[UserLoggedOut\\System.out.println("Bad State: logging out this way is not possible");]
+		}
+	}
+}
+%%GLOBAL {
+%%	VARIABLES {
+%%		String screen = "Login";
+%%		boolean loggedIn = false;
+%%%%		boolean areDetailsValid = false;
+%%	}
+%%	
+%%	EVENTS {
+%%		login(boolean areDetailsValid) = {*.loginWithDetails(areDetailsValid)} 
+%%		logOut() = {*.logout(logged)} 
+%%	}
+%%	
+%%	PROPERTY loginSystemProperty {
+%%		STATES {
+%%			BAD {
+%%				tooManyLogIns
+%%				tooManyLogOuts
+%%			}
+%%			NORMAL {
+%%				viewing
+%%			} 
+%%			STARTING {
+%%				loggedOut
+%%			}
+%%		}
+%%		TRANSITIONS {
+%%			loggedOut -> loggedOut [login\areDetailsValid == false\screen="Login"; loggedIn=false;]
+%%			loggedOut -> tooManyLogOuts [logOut\loggedIn==false\System.out.println("Bad State: Logged Out when already logged out(too Many log outs!)");]
+%%			loggedOut -> viewing [login\areDetailsValid==true\screen = "Alerts";loggedIn=true;System.out.println("Valid Credentials! Going to Alerts Screen");]
+%%			viewing -> loggedOut [logOut\\screen = "Login";loggedIn=false;System.out.println("logged out successfully");]
+%%			viewing -> tooManyLogIns [login\areDetailsValid == true || areDetailsValid==false\System.out.println("Bad State: (Impossible Login encountered) too many Log-ins");]
+%%		}
+%%	}
+%%}

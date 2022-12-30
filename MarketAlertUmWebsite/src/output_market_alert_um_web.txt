@@ -1,0 +1,31 @@
+[MarketAlertUmProperty]AUTOMATON::> MarketAlertUmProperty() STATE::>loggedOut
+[MarketAlertUmProperty]MOVED ON METHODCALL: void main.Runner.UserValidLogin() TO STATE::> loggedIn
+[MarketAlertUmProperty]AUTOMATON::> MarketAlertUmProperty() STATE::>loggedIn
+[MarketAlertUmProperty]MOVED ON METHODCALL: void main.Runner.UserViewingAlerts() TO STATE::> viewingAlerts
+[MarketAlertUmProperty]AUTOMATON::> MarketAlertUmProperty() STATE::>viewingAlerts
+Bad State: too many log ins
+[MarketAlertUmProperty]MOVED ON METHODCALL: void main.Runner.UserValidLogin() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! tooManyLogIns 
+aspects._asp_market_alert_um_web0.ajc$before$aspects__asp_market_alert_um_web0$2$cd6ca5e9(_asp_market_alert_um_web0.aj:21)
+main.Runner.runner(Runner.java:58)
+main.Main.menu(Main.java:69)
+main.Main.main(Main.java:110) 
+[MarketAlertUmProperty]AUTOMATON::> MarketAlertUmProperty() STATE::>tooManyLogIns
+[MarketAlertUmProperty]MOVED ON METHODCALL: void main.Runner.UserViewingAlerts() TO STATE::> viewingAlerts
+[MarketAlertUmProperty]AUTOMATON::> MarketAlertUmProperty() STATE::>viewingAlerts
+Bad State: too many log ins
+[MarketAlertUmProperty]MOVED ON METHODCALL: void main.Runner.UserValidLogin() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! tooManyLogIns 
+aspects._asp_market_alert_um_web0.ajc$before$aspects__asp_market_alert_um_web0$2$cd6ca5e9(_asp_market_alert_um_web0.aj:21)
+main.Runner.runner(Runner.java:58)
+main.Main.menu(Main.java:69)
+main.Main.main(Main.java:110) 
+[MarketAlertUmProperty]AUTOMATON::> MarketAlertUmProperty() STATE::>tooManyLogIns
+[MarketAlertUmProperty]MOVED ON METHODCALL: void main.Runner.UserViewingAlerts() TO STATE::> viewingAlerts
+[MarketAlertUmProperty]AUTOMATON::> MarketAlertUmProperty() STATE::>viewingAlerts
+Bad State: too many log ins
+[MarketAlertUmProperty]MOVED ON METHODCALL: void main.Runner.UserValidLogin() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! tooManyLogIns 
+aspects._asp_market_alert_um_web0.ajc$before$aspects__asp_market_alert_um_web0$2$cd6ca5e9(_asp_market_alert_um_web0.aj:21)
+main.Runner.runner(Runner.java:58)
+main.Main.menu(Main.java:69)
+main.Main.main(Main.java:110) 
+[MarketAlertUmProperty]AUTOMATON::> MarketAlertUmProperty() STATE::>tooManyLogIns
+[MarketAlertUmProperty]MOVED ON METHODCALL: void main.Runner.UserViewingAlerts() TO STATE::> viewingAlerts

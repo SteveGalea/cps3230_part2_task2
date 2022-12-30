@@ -1,0 +1,12 @@
+digraph _logic_alertEventSystemProp {
+rankdir=LR;
+node [shape = circle]; viewingAlerts;
+node [shape = octagon]; viewingLatestAlerts;
+node [shape = point]; _s_s;
+_s_s -> viewingAlerts;
+viewingAlerts -> viewingLatestAlerts [ label = "(1) AlertCreated\\noOfAlerts == 5 \\noOfAlerts ++ ; "];
+viewingAlerts -> viewingAlerts [ label = "(2) AlertCreated\\\\noOfAlerts ++ ; "];
+viewingAlerts -> viewingAlerts [ label = "(3) AlertsDeleted\\\\noOfAlerts = 0 ; "];
+viewingLatestAlerts -> viewingLatestAlerts [ label = "(1) AlertCreated\\\\noOfAlerts ++ ; System . out . println ( \" Bad State: Too many alerts(alerts > 5) \" ) ; "];
+viewingLatestAlerts -> viewingAlerts [ label = "(2) AlertsDeleted\\\\noOfAlerts = 0 ; "];
+}
