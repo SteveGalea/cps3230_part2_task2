@@ -1,0 +1,158 @@
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Main.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Main.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Main.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Main.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Main.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Main.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Main.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Main.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Main.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Main.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Main.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Main.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Main.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Main.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Main.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Main.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Main.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Main.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Main.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Main.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! viewingLatestAlerts 
+aspects._asp_alerts_sys0.ajc$before$aspects__asp_alerts_sys0$2$2a28a79(_asp_alerts_sys0.aj:23)
+main.Runner.runner(Runner.java:51)
+main.Main.menu(Main.java:149)
+main.Main.main(Main.java:175) 
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingLatestAlerts
+Bad State: Too many alerts(alerts > 5)
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! viewingLatestAlerts 
+aspects._asp_alerts_sys0.ajc$before$aspects__asp_alerts_sys0$2$2a28a79(_asp_alerts_sys0.aj:23)
+main.Runner.runner(Runner.java:51)
+main.Main.menu(Main.java:149)
+main.Main.main(Main.java:175) 
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingLatestAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.deleteAlerts() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> viewingAlerts
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! viewingLatestAlerts 
+aspects._asp_alerts_sys0.ajc$before$aspects__asp_alerts_sys0$2$2a28a79(_asp_alerts_sys0.aj:23)
+main.Runner.runner(Runner.java:51)
+main.Main.menu(Main.java:149)
+main.Main.main(Main.java:175) 
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingLatestAlerts
+Bad State: Too many alerts(alerts > 5)
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.createAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! viewingLatestAlerts 
+aspects._asp_alerts_sys0.ajc$before$aspects__asp_alerts_sys0$2$2a28a79(_asp_alerts_sys0.aj:23)
+main.Runner.runner(Runner.java:51)
+main.Main.menu(Main.java:149)
+main.Main.main(Main.java:175) 
+[alertEventSystemProp]AUTOMATON::> alertEventSystemProp() STATE::>viewingLatestAlerts
+[alertEventSystemProp]MOVED ON METHODCALL: void main.Runner.deleteAlerts() TO STATE::> viewingAlerts

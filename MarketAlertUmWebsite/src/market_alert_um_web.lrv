@@ -4,9 +4,9 @@ GLOBAL {
 	}
 	
 	EVENTS {
-		UserValidLogin() = {*.UserValidLogin()}
-		UserLoggedOut() = {*.UserLoggedOut()}
-		UserViewingAlerts() = {*.UserViewingAlerts()}
+		login() = {*.login()}
+		logout() = {*.logout()}
+		view() = {*.view()}
 	}
 	
 	PROPERTY MarketAlertUmProperty {
@@ -25,24 +25,24 @@ GLOBAL {
 			}
 		}
 		TRANSITIONS {
-			tooManyLogIns -> tooManyLogIns[UserValidLogin\\System.out.println("Bad State: too many log ins");]
-			tooManyLogIns -> loggedOut[UserLoggedOut\\loggedIn=false;]
-			tooManyLogIns -> viewingAlerts[UserViewingAlerts\\;]
-			tooManyLogOuts -> tooManyLogOuts[UserLoggedOut\\System.out.println("Bad State: too many log outs");]
-			tooManyLogOuts -> badViewingAlerts[UserViewingAlerts\\System.out.println("Bad State: user not logged in to view alerts");]
-			tooManyLogOuts -> loggedIn[UserValidLogin\\loggedIn=true;]
-			badViewingAlerts -> badViewingAlerts[UserViewingAlerts\\System.out.println("Bad State: viewing alerts this way is not possible");]
-			badViewingAlerts -> loggedIn[UserValidLogin\\loggedIn=true;]
-			badViewingAlerts -> tooManyLogOuts[UserLoggedOut\\System.out.println("Bad State: logging out this way is not possible");]
-			viewingAlerts -> loggedOut[UserLoggedOut\\loggedIn=false;]
-			viewingAlerts -> viewingAlerts[UserViewingAlerts\\;]
-			viewingAlerts -> tooManyLogIns[UserValidLogin\\System.out.println("Bad State: too many log ins");]
-			loggedIn -> loggedOut[UserLoggedOut\\loggedIn=false;]
-			loggedIn -> viewingAlerts[UserViewingAlerts\\;]
-			loggedIn -> tooManyLogIns[UserValidLogin\\System.out.println("Bad State: too many log ins");]
-			loggedOut -> loggedIn[UserValidLogin\\loggedIn=true;]
-			loggedOut -> badViewingAlerts[UserViewingAlerts\\System.out.println("Bad State: user not logged in to view alerts");]
-			loggedOut -> tooManyLogOuts[UserLoggedOut\\System.out.println("Bad State: logging out this way is not possible");]
+			tooManyLogIns -> tooManyLogIns[login\\System.out.println("Bad State: too many log ins");]
+			tooManyLogIns -> loggedOut[logout\\loggedIn=false;]
+			tooManyLogIns -> viewingAlerts[view\\;]
+			tooManyLogOuts -> tooManyLogOuts[logout\\System.out.println("Bad State: too many log outs");]
+			tooManyLogOuts -> badViewingAlerts[view\\System.out.println("Bad State: user not logged in to view alerts");]
+			tooManyLogOuts -> loggedIn[login\\loggedIn=true;]
+			badViewingAlerts -> badViewingAlerts[view\\System.out.println("Bad State: viewing alerts this way is not possible");]
+			badViewingAlerts -> loggedIn[login\\loggedIn=true;]
+			badViewingAlerts -> tooManyLogOuts[logout\\System.out.println("Bad State: logging out this way is not possible");]
+			viewingAlerts -> loggedOut[logout\\loggedIn=false;]
+			viewingAlerts -> viewingAlerts[view\\;]
+			viewingAlerts -> tooManyLogIns[login\\System.out.println("Bad State: too many log ins");]
+			loggedIn -> loggedOut[logout\\loggedIn=false;]
+			loggedIn -> viewingAlerts[view\\;]
+			loggedIn -> tooManyLogIns[login\\System.out.println("Bad State: too many log ins");]
+			loggedOut -> loggedIn[login\\loggedIn=true;]
+			loggedOut -> badViewingAlerts[view\\System.out.println("Bad State: user not logged in to view alerts");]
+			loggedOut -> tooManyLogOuts[logout\\System.out.println("Bad State: logging out this way is not possible");]
 		}
 	}
 }

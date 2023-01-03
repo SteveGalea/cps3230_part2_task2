@@ -82,7 +82,7 @@ else if (no_automata < 0)
 }catch(Exception ex){ex.printStackTrace();}
 }
 
-int _state_id_MarketAlertUmProperty = 17;
+int _state_id_MarketAlertUmProperty = 43;
 
 public void _performLogic_MarketAlertUmProperty(String _info, int... _event) {
 
@@ -90,129 +90,129 @@ _cls_market_alert_um_web0.pw.println("[MarketAlertUmProperty]AUTOMATON::> Market
 _cls_market_alert_um_web0.pw.flush();
 
 if (0==1){}
-else if (_state_id_MarketAlertUmProperty==14){
+else if (_state_id_MarketAlertUmProperty==40){
 		if (1==0){}
-		else if ((_occurredEvent(_event,16/*UserViewingAlerts*/))){
+		else if ((_occurredEvent(_event,56/*view*/))){
 		_cls_market_alert_um_web0.pw .println ("Bad State: viewing alerts this way is not possible");
 
-		_state_id_MarketAlertUmProperty = 14;//moving to state badViewingAlerts
+		_state_id_MarketAlertUmProperty = 40;//moving to state badViewingAlerts
 		_goto_MarketAlertUmProperty(_info);
 		}
-		else if ((_occurredEvent(_event,12/*UserValidLogin*/))){
+		else if ((_occurredEvent(_event,52/*login*/))){
 		loggedIn =true ;
 
-		_state_id_MarketAlertUmProperty = 16;//moving to state loggedIn
+		_state_id_MarketAlertUmProperty = 42;//moving to state loggedIn
 		_goto_MarketAlertUmProperty(_info);
 		}
-		else if ((_occurredEvent(_event,14/*UserLoggedOut*/))){
+		else if ((_occurredEvent(_event,54/*logout*/))){
 		_cls_market_alert_um_web0.pw .println ("Bad State: logging out this way is not possible");
 
-		_state_id_MarketAlertUmProperty = 13;//moving to state tooManyLogOuts
+		_state_id_MarketAlertUmProperty = 39;//moving to state tooManyLogOuts
 		_goto_MarketAlertUmProperty(_info);
 		}
 }
-else if (_state_id_MarketAlertUmProperty==15){
+else if (_state_id_MarketAlertUmProperty==41){
 		if (1==0){}
-		else if ((_occurredEvent(_event,14/*UserLoggedOut*/))){
+		else if ((_occurredEvent(_event,54/*logout*/))){
 		loggedIn =false ;
 
-		_state_id_MarketAlertUmProperty = 17;//moving to state loggedOut
+		_state_id_MarketAlertUmProperty = 43;//moving to state loggedOut
 		_goto_MarketAlertUmProperty(_info);
 		}
-		else if ((_occurredEvent(_event,16/*UserViewingAlerts*/))){
+		else if ((_occurredEvent(_event,56/*view*/))){
 		;
 
-		_state_id_MarketAlertUmProperty = 15;//moving to state viewingAlerts
+		_state_id_MarketAlertUmProperty = 41;//moving to state viewingAlerts
 		_goto_MarketAlertUmProperty(_info);
 		}
-		else if ((_occurredEvent(_event,12/*UserValidLogin*/))){
+		else if ((_occurredEvent(_event,52/*login*/))){
 		_cls_market_alert_um_web0.pw .println ("Bad State: too many log ins");
 
-		_state_id_MarketAlertUmProperty = 12;//moving to state tooManyLogIns
+		_state_id_MarketAlertUmProperty = 38;//moving to state tooManyLogIns
 		_goto_MarketAlertUmProperty(_info);
 		}
 }
-else if (_state_id_MarketAlertUmProperty==16){
+else if (_state_id_MarketAlertUmProperty==42){
 		if (1==0){}
-		else if ((_occurredEvent(_event,14/*UserLoggedOut*/))){
+		else if ((_occurredEvent(_event,54/*logout*/))){
 		loggedIn =false ;
 
-		_state_id_MarketAlertUmProperty = 17;//moving to state loggedOut
+		_state_id_MarketAlertUmProperty = 43;//moving to state loggedOut
 		_goto_MarketAlertUmProperty(_info);
 		}
-		else if ((_occurredEvent(_event,16/*UserViewingAlerts*/))){
+		else if ((_occurredEvent(_event,56/*view*/))){
 		;
 
-		_state_id_MarketAlertUmProperty = 15;//moving to state viewingAlerts
+		_state_id_MarketAlertUmProperty = 41;//moving to state viewingAlerts
 		_goto_MarketAlertUmProperty(_info);
 		}
-		else if ((_occurredEvent(_event,12/*UserValidLogin*/))){
+		else if ((_occurredEvent(_event,52/*login*/))){
 		_cls_market_alert_um_web0.pw .println ("Bad State: too many log ins");
 
-		_state_id_MarketAlertUmProperty = 12;//moving to state tooManyLogIns
+		_state_id_MarketAlertUmProperty = 38;//moving to state tooManyLogIns
 		_goto_MarketAlertUmProperty(_info);
 		}
 }
-else if (_state_id_MarketAlertUmProperty==13){
+else if (_state_id_MarketAlertUmProperty==39){
 		if (1==0){}
-		else if ((_occurredEvent(_event,14/*UserLoggedOut*/))){
+		else if ((_occurredEvent(_event,54/*logout*/))){
 		_cls_market_alert_um_web0.pw .println ("Bad State: too many log outs");
 
-		_state_id_MarketAlertUmProperty = 13;//moving to state tooManyLogOuts
+		_state_id_MarketAlertUmProperty = 39;//moving to state tooManyLogOuts
 		_goto_MarketAlertUmProperty(_info);
 		}
-		else if ((_occurredEvent(_event,16/*UserViewingAlerts*/))){
+		else if ((_occurredEvent(_event,56/*view*/))){
 		_cls_market_alert_um_web0.pw .println ("Bad State: user not logged in to view alerts");
 
-		_state_id_MarketAlertUmProperty = 14;//moving to state badViewingAlerts
+		_state_id_MarketAlertUmProperty = 40;//moving to state badViewingAlerts
 		_goto_MarketAlertUmProperty(_info);
 		}
-		else if ((_occurredEvent(_event,12/*UserValidLogin*/))){
+		else if ((_occurredEvent(_event,52/*login*/))){
 		loggedIn =true ;
 
-		_state_id_MarketAlertUmProperty = 16;//moving to state loggedIn
+		_state_id_MarketAlertUmProperty = 42;//moving to state loggedIn
 		_goto_MarketAlertUmProperty(_info);
 		}
 }
-else if (_state_id_MarketAlertUmProperty==17){
+else if (_state_id_MarketAlertUmProperty==43){
 		if (1==0){}
-		else if ((_occurredEvent(_event,12/*UserValidLogin*/))){
+		else if ((_occurredEvent(_event,52/*login*/))){
 		loggedIn =true ;
 
-		_state_id_MarketAlertUmProperty = 16;//moving to state loggedIn
+		_state_id_MarketAlertUmProperty = 42;//moving to state loggedIn
 		_goto_MarketAlertUmProperty(_info);
 		}
-		else if ((_occurredEvent(_event,16/*UserViewingAlerts*/))){
+		else if ((_occurredEvent(_event,56/*view*/))){
 		_cls_market_alert_um_web0.pw .println ("Bad State: user not logged in to view alerts");
 
-		_state_id_MarketAlertUmProperty = 14;//moving to state badViewingAlerts
+		_state_id_MarketAlertUmProperty = 40;//moving to state badViewingAlerts
 		_goto_MarketAlertUmProperty(_info);
 		}
-		else if ((_occurredEvent(_event,14/*UserLoggedOut*/))){
+		else if ((_occurredEvent(_event,54/*logout*/))){
 		_cls_market_alert_um_web0.pw .println ("Bad State: logging out this way is not possible");
 
-		_state_id_MarketAlertUmProperty = 13;//moving to state tooManyLogOuts
+		_state_id_MarketAlertUmProperty = 39;//moving to state tooManyLogOuts
 		_goto_MarketAlertUmProperty(_info);
 		}
 }
-else if (_state_id_MarketAlertUmProperty==12){
+else if (_state_id_MarketAlertUmProperty==38){
 		if (1==0){}
-		else if ((_occurredEvent(_event,12/*UserValidLogin*/))){
+		else if ((_occurredEvent(_event,52/*login*/))){
 		_cls_market_alert_um_web0.pw .println ("Bad State: too many log ins");
 
-		_state_id_MarketAlertUmProperty = 12;//moving to state tooManyLogIns
+		_state_id_MarketAlertUmProperty = 38;//moving to state tooManyLogIns
 		_goto_MarketAlertUmProperty(_info);
 		}
-		else if ((_occurredEvent(_event,14/*UserLoggedOut*/))){
+		else if ((_occurredEvent(_event,54/*logout*/))){
 		loggedIn =false ;
 
-		_state_id_MarketAlertUmProperty = 17;//moving to state loggedOut
+		_state_id_MarketAlertUmProperty = 43;//moving to state loggedOut
 		_goto_MarketAlertUmProperty(_info);
 		}
-		else if ((_occurredEvent(_event,16/*UserViewingAlerts*/))){
+		else if ((_occurredEvent(_event,56/*view*/))){
 		;
 
-		_state_id_MarketAlertUmProperty = 15;//moving to state viewingAlerts
+		_state_id_MarketAlertUmProperty = 41;//moving to state viewingAlerts
 		_goto_MarketAlertUmProperty(_info);
 		}
 }
@@ -225,12 +225,12 @@ _cls_market_alert_um_web0.pw.flush();
 
 public String _string_MarketAlertUmProperty(int _state_id, int _mode){
 switch(_state_id){
-case 14: if (_mode == 0) return "badViewingAlerts"; else return "!!!SYSTEM REACHED BAD STATE!!! badViewingAlerts "+new _BadStateExceptionmarket_alert_um_web().toString()+" ";
-case 15: if (_mode == 0) return "viewingAlerts"; else return "viewingAlerts";
-case 16: if (_mode == 0) return "loggedIn"; else return "loggedIn";
-case 13: if (_mode == 0) return "tooManyLogOuts"; else return "!!!SYSTEM REACHED BAD STATE!!! tooManyLogOuts "+new _BadStateExceptionmarket_alert_um_web().toString()+" ";
-case 17: if (_mode == 0) return "loggedOut"; else return "loggedOut";
-case 12: if (_mode == 0) return "tooManyLogIns"; else return "!!!SYSTEM REACHED BAD STATE!!! tooManyLogIns "+new _BadStateExceptionmarket_alert_um_web().toString()+" ";
+case 40: if (_mode == 0) return "badViewingAlerts"; else return "!!!SYSTEM REACHED BAD STATE!!! badViewingAlerts "+new _BadStateExceptionmarket_alert_um_web().toString()+" ";
+case 41: if (_mode == 0) return "viewingAlerts"; else return "viewingAlerts";
+case 42: if (_mode == 0) return "loggedIn"; else return "loggedIn";
+case 39: if (_mode == 0) return "tooManyLogOuts"; else return "!!!SYSTEM REACHED BAD STATE!!! tooManyLogOuts "+new _BadStateExceptionmarket_alert_um_web().toString()+" ";
+case 43: if (_mode == 0) return "loggedOut"; else return "loggedOut";
+case 38: if (_mode == 0) return "tooManyLogIns"; else return "!!!SYSTEM REACHED BAD STATE!!! tooManyLogIns "+new _BadStateExceptionmarket_alert_um_web().toString()+" ";
 default: return "!!!SYSTEM REACHED AN UNKNOWN STATE!!!";
 }
 }

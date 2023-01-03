@@ -1,13 +1,18 @@
 package main;
 
-import java.util.UUID;
-
-import org.json.JSONObject;
+import main.Product;
 
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.JsonNode;
 import com.mashape.unirest.http.Unirest;
+//import com.mashape.unirest.http.HttpResponse;
+//import com.mashape.unirest.http.JsonNode;
+//import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
+
+import org.json.JSONObject;
+
+import java.util.UUID;
 
 
 public class RequestMaker {
@@ -48,6 +53,7 @@ public class RequestMaker {
         jsonObject.put("imageUrl", product.getImageUrl());
         jsonObject.put("postedBy", myUUID);
         jsonObject.put("priceInCents", product.getPriceInCents());
+//        System.out.println(jsonObject);
     }
 
     //methods
